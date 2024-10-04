@@ -4,9 +4,9 @@ import "ag-grid-community/styles/ag-theme-material.min.css";
 import { AgGridReact } from "ag-grid-react";
 import { ColDef } from "ag-grid-community";
 import { useMemo } from "react";
-import { serverSideDatasource, getFilterValues } from "./mockServer";
 import { LicenseManager } from "ag-grid-enterprise";
 import _ from "lodash";
+import { serverSideDatasource, getFilterValues } from "./mockServer";
 
 LicenseManager.setLicenseKey(import.meta.env.VITE_AG_GRID_LICENSE_KEY!);
 
